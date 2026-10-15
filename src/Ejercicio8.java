@@ -42,9 +42,9 @@ public class Ejercicio8 {
 
     }
     public static void abrirP(String p) throws IOException {
-        ProcessBuilder paint = new ProcessBuilder(p);
+        ProcessBuilder pb = new ProcessBuilder(p);
 
-        Process pr = paint.start();
+        Process pr = pb.start();
 
     }
 }
